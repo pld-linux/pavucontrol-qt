@@ -3,18 +3,18 @@
 Summary:	Qt port of volume control pavucontrol
 Summary(pl.UTF-8):	Port Qt regulacji głośności pavucontrol
 Name:		pavucontrol-qt
-Version:	2.3.0
+Version:	2.4.0
 Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Libraries
 Source0:	https://github.com/lxqt/pavucontrol-qt/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	2d6a82e01b3184ed3a914fabe7d0cefb
+# Source0-md5:	79ec4eb4247001df14eca73c437a446c
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 3.18.0
 BuildRequires:	glib2-devel >= 1:2.50.0
-BuildRequires:	lxqt-build-tools >= 2.3.0
+BuildRequires:	lxqt-build-tools >= 2.4.0
 BuildRequires:	perl-base
 BuildRequires:	pulseaudio-devel
 BuildRequires:	qt6-linguist >= %{qtver}
